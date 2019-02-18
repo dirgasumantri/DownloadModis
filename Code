@@ -1,15 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Feb 13 13:51:33 2019
-
-@author: Komputer7
-"""
-
-# -*- coding: utf-8 -*-
-"""
 Created on Wed Jan  9 13:00:34 2019
 
-@author: backdoor
+@author: 
 """
 import numpy as np
 import urllib3
@@ -44,9 +37,9 @@ CHUNKS = 65536
 
 
 #proxy = { "http" : "http://167.205.22.103:8080" } #without proxy authentication
-proxy_url = { 'http' : r'http://abh:51876807@167.205.22.103:8080',
-             'https' : r'https://abh:51876807@167.205.22.103:8080',
-             'ftp' : r'ftp://abh:51876807@167.205.22.103:8080' } #with Proxy Authentication
+proxy_url = { 'http' : r'http://username:password@167.205.00.000:8080',
+             'https' : r'https://username:password@167.205.00.000:8080',
+             'ftp' : r'ftp://username:password@167.205.00.000:8080' } #with Proxy Authentication
 #proxy = urllib2.ProxyHandler(proxy_url)
 #auth = urllib2.HTTPBasicAuthHandler()
 #opener = urllib2.build_opener(proxy, auth, urllib2.HTTPHandler)
@@ -54,7 +47,7 @@ proxy_url = { 'http' : r'http://abh:51876807@167.205.22.103:8080',
 
 #    import requests
 #proxies = {
-#    "http": "http://abh:51876807@167.205.22.103:8080/",
+#    "http": "http://username:password@167.205.00.000:8080/",
 #}
 #ready for `req = requests.get(url, proxies=proxies)
 
@@ -71,8 +64,8 @@ proxy_url = { 'http' : r'http://abh:51876807@167.205.22.103:8080',
 #conn = req.urlopen('http://www.google.com')
 #return_str = conn.read()
 #print(return_str)
-username = 'abegebi'
-password = 'Geboy2009#'
+username = 'username'
+password = 'password#'
 #the_url = 'https://e4ftl01.cr.usgs.gov//MODV6_Dal_H/MOTA/MCD19A2.006/2018.12.31/MCD19A2.A2018365.h05v10.006.2019009045849.hdf'
 
 try:
